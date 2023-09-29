@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <!-- font awsome-->
+    <script src="https://kit.fontawesome.com/e45bb904a7.js" crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inder&family=Ingrid+Darling&family=Inter&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="custom-pack.css">
+    <link rel="icon" href="favicon.ico">
+    <title>Scooba Life</title>
+  </head>
+
+
+  <body>
+
+    <!-- navigation bar -->
+    <header class="header">
+     <a href="about.html">
+      <img class="header_logo" src="images/logo.png" alt="logo">
+     </a>
+     <div class="burger-menu">
+      <span></span>
+     </div>
+     <nav class="main-nav">
+       <ul class="nav-list">
+          <li class="list1"><a href="index.html">Home</a></li>
+          <li class="list2"><a href="index.html#services">Services</a></li>
+          <li class="list3"><a href="packages.html">Packages</a></li>
+          <li class="list4"><a href="about.html">About us</a></li>
+       </ul>
+     </nav>
+    </header>
+
+
+  <!-- beginner-pack-text -->
+  <section id="pack-text">
+  <table class="intro">
+    <tbody>
+      <tr>
+        <td class="text">
+            <h1>Packages</h1>
+            <p class="pack-para">We offer a range of healthy and pocket friendly packages to our customers. You can enroll yourself in just a click. So go ahead and dont miss the chance!</p>
+            <h2>The Custom Package</h2>
+              <p>
+                Custom packages are available for 1:1 tution, adults only and family groups. clients must contact the company to arrange any custom packages.
+              </p>
+      </td>
+        <td class="img-round">
+          <img src="images/custom package.jpeg" alt="">
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+<br><br><br>
+
+<!-- more -->
+ <div class="more">
+   <p>Find out more interesting packages here</p>
+   <a href="packages.html"><button type="button" name="button">find more</button></a>
+ </div>
+
+
+ <!--booking-->
+ <hr>
+ <section>
+   <div class="booking">
+     <h1>Book online</h1>
+     <form action="/action_page.php">
+       <label for="divers">no. of divers:</label><br>
+       <input type="number" id="divers" name="divers" value=""><br><br>
+       <label for="age">Are all divers 18 and above of age?</label><br>
+       <input type="radio" id="agey" name="yes" value="Yes">
+       <label for="age" class="sml">Yes</label><br>
+       <input type="radio" id="agen" name="no" value="No">
+       <label for="age" class="sml">No</label><br>
+       <div id="hide">
+        <br><label for="purchase">Choose the activities you would like to purchase:</label><br>
+        <label class="sml">
+        <input type="checkbox" name="activity" value="Recreational and specialist scuba diving courses">
+        Recreational and specialist scuba diving courses
+        </label><br>
+        <label class="sml">
+        <input type="checkbox" name="activity" value="Equipment hire and purchase">
+        Equipment hire and purchase
+        </label><br>
+        <label class="sml">
+        <input type="checkbox" name="activity" value="Equipment servicing">
+        Equipment servicing
+        </label><br>
+        <label class="sml">
+        <input type="checkbox" name="activity" value="open water diving sessions">
+        open water diving sessions
+        </label><br>
+        <label class="sml">
+        <input type="checkbox" name="activity" value="hotel-based diving holidays">
+        hotel-based diving holidays
+        </label><br>
+        <label class="sml">
+        <input type="checkbox" name="activity" value="liveboard diving holidays">
+        liveboard diving holidays
+        </label><br>
+        <label class="sml">
+        <input type="checkbox" name="activity" value="instructor training">
+        instructor training
+        </label><br>
+        <label class="sml">
+        <input type="checkbox" name="activity" value="skills development workshops">
+        skills development workshops
+        </label><br>
+         <button type="button" id="buy" name="button">Purchase</button>
+       </div>
+       <span class="sml" id="msg-text"></span>
+       <p class="sml" style="margin-bottom:0;">For any queries, feel free to contact us:
+         <p class="sml" style="margin-top:10px;">
+         <i class="fab fa-facebook-square"></i>
+         <i class="fab fa-whatsapp"></i>
+         <i class="fas fa-phone-volume"></i>
+         <i class="fab fa-instagram"></i>
+         </p>
+       </p>
+       <button type="button" id="calculate">Book Now!</button>
+      </div>
+     </form>
+ </section>
+ <hr>
+
+
+ <!-- footer -->
+ <section id="footer">
+   <div class="footer">
+     <img src="images/logo.png" alt="">
+     <div class="contact">
+       <p>CONTACT US</p>
+       <div class="icon">
+         <p>
+           <i class="fab fa-facebook-square" style="color: #000000;margin-right:10px;"></i>
+           <i class="fab fa-whatsapp" style="color: #000000;"></i>
+         </p>
+       </div>
+       <div class="icon">
+         <p>
+           <i class="fas fa-phone-volume" style="color: #000000;margin-right:10px;"></i>
+           <i class="fab fa-instagram"></i>
+         </p>
+       </div>
+     </div>
+   </div>
+   <p><i class="far fa-copyright" style="color: #000000;"></i>2023<b>SCOOBA LIFE</b></p>
+ </section>
+
+
+  <script src="burger-menu.js"></script>
+  <script src="custom-pack.js"></script>
+  </body>
+</html>

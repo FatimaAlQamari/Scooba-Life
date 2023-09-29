@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <!-- font awsome-->
+    <script src="https://kit.fontawesome.com/e45bb904a7.js" crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inder&family=Ingrid+Darling&family=Inter&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="begin-pack.css">
+    <link rel="icon" href="favicon.ico">
+    <title>Scooba Life</title>
+  </head>
+
+
+  <body>
+
+    <!-- navigation bar -->
+    <header class="header">
+     <a href="about.html">
+      <img class="header_logo" src="images/logo.png" alt="logo">
+     </a>
+     <div class="burger-menu">
+      <span></span>
+     </div>
+     <nav class="main-nav">
+       <ul class="nav-list">
+          <li class="list1"><a href="index.html">Home</a></li>
+          <li class="list2"><a href="index.html#services">Services</a></li>
+          <li class="list3"><a href="packages.html">Packages</a></li>
+          <li class="list4"><a href="about.html">About us</a></li>
+       </ul>
+     </nav>
+    </header>
+
+
+<!-- beginner-pack-text -->
+<section id="pack-text">
+  <table class="intro">
+    <tbody>
+      <tr>
+        <td class="text">
+            <h1>Packages</h1>
+            <p class="pack-para">We offer a range of healthy and pocket friendly packages to our customers. You can enroll yourself in just a click. So go ahead and dont miss the chance!</p>
+            <h2>The Beginner's Package</h2>
+            <div class="left-align">
+              <p><span>5% discount</span> on equipment purchase</p>
+              <ul>
+                <li>2x recreational courses</li>
+                <li>2x open water diving sessions</li>
+                <li><span>free equipment hire</span></li>
+              </ul>
+            </div>
+      </td>
+        <td class="img-round">
+          <img src="images/beginner package.jpg" alt="">
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+
+<!-- custom -->
+<a href="custom-pack.html">
+<div class="custom">
+    <img src="images/custom.png" alt="">
+    <h3>Custom packages available contact us now!</h3>
+</div>
+</a>
+ <div class="more">
+   <p>Find out more interesting packages here</p>
+   <a href="packages.html"><button type="button" name="button">find more</button></a>
+ </div>
+
+<!--booking-->
+<hr>
+<section>
+  <div class="booking">
+    <h1>Book online</h1>
+    <form action="/action_page.php">
+      <label for="divers">No. of divers:</label><br>
+      <input type="number" id="divers" name="divers" value=""><br><br>
+      <label for="equip">How many equipments do you want to hire?</label><br>
+      <input type="number" id="equip" name="equip" value=""><br><br>
+      <label>
+      <input type="radio" id="purchase" name="purchase" value="">
+      Would you like to purchase any equipments?
+    </label><br><br>
+      <p class="sml" style="margin-bottom:0;">For any queries, feel free to contact us:
+        <p class="sml" style="margin-top:10px;">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-whatsapp"></i>
+        <i class="fas fa-phone-volume"></i>
+        <i class="fab fa-instagram"></i>
+        </p>
+      </p>
+      <button type="button" id="calculate">Book Now!</button>
+    </form>
+    </div>
+</section>
+<hr>
+
+
+<!-- footer -->
+<section id="footer">
+  <div class="footer">
+    <img src="images/logo.png" alt="">
+    <div class="contact">
+      <p>CONTACT US</p>
+      <div class="icon">
+        <p>
+          <i class="fab fa-facebook-square" style="color: #000000;margin-right:10px;"></i>
+          <i class="fab fa-whatsapp" style="color: #000000;"></i>
+        </p>
+      </div>
+      <div class="icon">
+        <p>
+          <i class="fas fa-phone-volume" style="color: #000000;margin-right:10px;"></i>
+          <i class="fab fa-instagram"></i>
+        </p>
+      </div>
+    </div>
+  </div>
+  <p><i class="far fa-copyright" style="color: #000000;"></i>2023<b>SCOOBA LIFE</b></p>
+</section>
+
+
+  <script src="burger-menu.js"></script>
+  </body>
+</html>
